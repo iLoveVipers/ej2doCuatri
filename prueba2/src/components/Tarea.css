@@ -1,0 +1,39 @@
+article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+article input{
+    background-color: rgb(251, 254, 255);
+    padding: 1.5rem;
+    font-size: 16px;
+}
+
+button{
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(167, 160, 212);
+    
+}
+
+.texto{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(100, 82, 112);
+    padding: 1rem;
+    /* width: fit-content; */
+    margin: 0;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.lista-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
